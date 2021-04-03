@@ -13,6 +13,7 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
+  color: var(--black-color);
   background-color: var(--white-color);
 }
 
@@ -24,8 +25,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  /* letter-spacing: 0.03em; */
-  color: var(--black-color);
 }
 .header-list {
   list-style-type: none;
@@ -33,12 +32,10 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--black-color);
 }
 .header-list-item-stydia,
 .header-list-item-portf,
 .header-list-item-kont {
-  color: var(--black-color);
   text-decoration: none;
 }
 .header-web,
@@ -91,14 +88,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  /* letter-spacing: 0.03em; */
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 .features-list p {
   font-size: 14px;
   line-height: 1.7;
-  /* letter-spacing: 0.03em; */
   color: var(--text-color);
 }
 .lessons-text,
@@ -107,7 +102,6 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  /* letter-spacing: 0.03em; */
   color: var(--title-text-color);
 }
 .lessons-list,
@@ -118,13 +112,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  /* letter-spacing: 0.03em; */
   color: var(--title-text-color);
 }
 .team-list-cap-pos {
   font-size: 16px;
   line-height: 1.19;
-  /* letter-spacing: 0.03em; */
   color: var(--text-color);
 }
 /* Portfolio */
@@ -168,10 +160,9 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
-  /* letter-spacing: 0.03em; */
 }
 .footer-email,
 .footer-tel {
-  color: var(--nav-text-color);
   text-decoration: none;
+  color: var(--nav-text-color);
 }
