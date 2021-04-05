@@ -154,6 +154,7 @@ body {
 }
 .footer-map,
 .footer-studio {
+  text-decoration: none;
   color: var(--white-color);
 }
 .footer-address {
@@ -161,6 +162,10 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
+.footer-address ul {
+  list-style-type: none;
+}
+
 .footer-email,
 .footer-tel {
   text-decoration: none;
