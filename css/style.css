@@ -13,7 +13,7 @@ body {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.03em;
-  color: var(--black-color);
+  color: var(--text-color);
   background-color: var(--white-color);
 }
 
@@ -25,6 +25,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
+  color: var(--black-color);
 }
 .header-list {
   list-style-type: none;
@@ -37,6 +38,7 @@ body {
 .header-list-item-portf,
 .header-list-item-kont {
   text-decoration: none;
+  color: var(--black-color);
 }
 .header-web,
 .primary,
@@ -72,14 +74,12 @@ body {
   color: var(--white-color);
 }
 .main-section-button {
-  background: var(--accent-text-color);
-}
-.main-section-button-heading {
   text-decoration: none;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   color: var(--white-color);
+  background: var(--accent-text-color);
 }
 .features-list {
   list-style-type: none;
@@ -94,7 +94,7 @@ body {
 .features-list p {
   font-size: 14px;
   line-height: 1.7;
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 .lessons-text,
 .team-text {
@@ -117,7 +117,7 @@ body {
 .team-list-cap-pos {
   font-size: 16px;
   line-height: 1.19;
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 /* Portfolio */
 /* Main */
@@ -146,7 +146,7 @@ body {
 .portfolio-list-cap-pos {
   font-size: 16px;
   line-height: 1.9;
-  color: var(--text-color);
+  /* color: var(--text-color); */
 }
 /* Footer */
 .footer {
